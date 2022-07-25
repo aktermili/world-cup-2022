@@ -1,0 +1,499 @@
+/*----------
+common style css
+------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+img {
+    vertical-align: middle;
+}
+
+/* common style css end*/
+/* header-part-start*/
+.banner-part .banner-detail {
+    display: flex;
+    background-color: #161616;
+    border-radius: 20px;
+    margin: 50px 0px;
+
+
+}
+
+.banner-part .banner-text {
+    padding-left: 100px;
+    padding-top: 100px;
+    width: 50%;
+}
+
+.banner-part .banner-text h1 {
+    color: #f9f9f9;
+    font-size: 3.5rem;
+}
+
+.banner-part .banner-text p {
+    color: #f9f9f9;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.banner-part .banner-text a {
+    color: #f9f9f9;
+    font-size: 20px;
+    background-color: #DD0000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 40px 0px;
+}
+
+.banner-part .banner-text a:hover {
+    color: #000;
+    background-color: lightskyblue;
+    transition: all linear 0.3 sec;
+}
+
+.banner-part .banner-text i {
+    color: #fff;
+    margin-left: 3px;
+}
+
+.banner-part .banner-text i:hover {
+    color: #000;
+    background-color: lightskyblue;
+    transition: all linear 0.3 sec;
+}
+
+.banner-part .banner-image {
+    width: 40%;
+}
+
+.banner-part .banner-image img {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.banner-part:hover .bat {
+    transform: rotate(-90deg)scale(0.5)translate(200PX);
+    filter: grayscale(100%);
+    transition: transform 1s ease-in 0.2s;
+    transform-origin: left right;
+
+}
+
+/*---header-part end---*/
+/*---blog-part start---*/
+main {
+    margin-top: 120px;
+
+}
+
+.blog {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr) 2fr;
+
+}
+
+.btn {
+
+    display: flex;
+    flex-direction: column;
+    background-color: #161616;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border-radius: 10px;
+    margin-left: 180px;
+    padding: 30px 0px;
+    width: 60%;
+}
+
+.btn a {
+    color: #A0A0A0;
+    background-color: #fff;
+    width: 60%;
+    padding: 20px 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.btn a:hover {
+    background-color: red;
+    color: aliceblue;
+    transition: all linear 0.3s;
+
+}
+
+.btn a.active {
+    background-color: red;
+    color: aliceblue;
+
+}
+
+.img-border {
+    border: 1px solid #BBBBBB;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.blog-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+
+}
+
+.blog-image img {
+    width: 100%;
+}
+
+.blog-image a {
+    display: block;
+    color: #161616;
+    font-weight: 500;
+    background-color: #fff;
+    border: 1px solid #161616;
+    width: 100px;
+    margin-top: 20px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.blog-image p {
+    color: #161616;
+    font-weight: 700;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.blog-image .icon {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+
+}
+
+.blog-image .fa-clock {
+    font-size: 20px;
+    color: #BBBBBB;
+}
+
+.blog-image span {
+    font-size: 20px;
+    color: #BBBBBB;
+    margin-left: 10px;
+}
+
+.blog-image .fa-comment-dots {
+    font-size: 20px;
+    color: #BBBBBB;
+
+}
+
+.view-btn {
+    text-align: center;
+}
+
+.view-btn a {
+    color: #f9f9f9;
+    font-size: 20px;
+    background-color: red;
+    border-radius: 5px;
+    text-align: center;
+    visibility: hidden;
+    padding: 10px 0px;
+    width: 30%;
+}
+
+/* blog------part------- end*/
+/*footer----part-----start*/
+.footer-part {
+    background-color: #161616;
+    margin-top: 70px;
+}
+
+.footer-area {
+    height: 50vh;
+}
+
+.footer-text h1 {
+    text-align: center;
+    color: #fff;
+    padding: 70px;
+    padding-bottom: 30px;
+    font-size: 40px;
+    border-bottom: 1px solid #40505B;
+}
+
+.footer-menu {
+    margin-top: 50px;
+
+}
+
+
+.footer-menu ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer-menu ul li {
+    list-style: none;
+}
+
+.footer-menu ul li a {
+    padding: 0px 30px;
+    color: #40505B;
+    font-weight: 500;
+
+}
+
+.social-icon {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.social-icon i {
+    margin: 0px 30px;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    padding-top: 20px 20px;
+    border: 1px solid #40505B;
+
+
+}
+
+.social-icon i:hover {
+    color: aquamarine;
+    background-color: red;
+    transition: all linear 0.3s;
+
+}
+
+/* footer -part-- end*/
+/*----mobile device er jonno media query*/
+@media only screen and (max-width:688px) {
+    .container {
+        width: 100%;
+
+    }
+
+    .banner-part .banner-detail {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner-part .banner-text h1 {
+
+        font-size: 2rem;
+    }
+
+    .banner-part .banner-text p {
+        color: #f9f9f9;
+        font-size: 20px;
+        margin-top: 30px;
+    }
+
+    .banner-part .banner-text a {
+        color: #f9f9f9;
+        font-size: 20px;
+        background-color: #DD0000;
+        padding: 10px 20px;
+        border-radius: 5px;
+        margin: 40px 0px;
+    }
+
+    .banner-part .banner-text i {
+        color: #fff;
+        margin-left: 3px;
+    }
+
+
+
+    .blog {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .blog-images {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 10px;
+        grid-column-gap: 10px;
+
+
+    }
+
+    .btn {
+
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        border-radius: 10px;
+    }
+
+    .banner-part .banner-text h1 {
+        color: #f9f9f9;
+
+    }
+
+    .banner-part .banner-text p {
+        color: #f9f9f9;
+
+        margin-top: 30px;
+
+    }
+
+    .banner-part .banner-text a {
+        color: #f9f9f9;
+        font-size: 20px;
+        background-color: #DD0000;
+        padding: 10px 20px;
+        border-radius: 5px;
+        margin: 40px 0px;
+    }
+
+    .banner-part .banner-image img {
+        width: 100%;
+        margin-left: 100px;
+    }
+
+    .btn {
+        padding-right: 65px;
+        padding-top: -40px;
+
+    }
+
+    .btn a {
+        border: 1px solid gray;
+        padding: 10px 10px;
+        font-size: 25px;
+        width: 100%;
+
+    }
+
+
+    .footer-menu ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .footer-area {
+        height: 100%;
+    }
+
+    .footer-part {
+        margin-top: 20px;
+    }
+
+}
+
+/*tablet er jonno media query*/
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .banner-part .banner-image img {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .banner-part .banner-text h1 {
+
+        font-size: 2rem;
+    }
+
+    .banner-part .banner-text p {
+
+        font-size: 10px;
+        margin-top: 20px;
+    }
+
+    .banner-part .banner-text a {
+        color: #f9f9f9;
+        font-size: 20px;
+        background-color: #DD0000;
+        padding: 10px 20px;
+        border-radius: 5px;
+        margin: 40px 0px;
+    }
+
+    .blog {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .blog-images {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 10px;
+        grid-column-gap: 10px;
+
+
+    }
+
+    .view-btn a {
+        color: #f9f9f9;
+        font-size: 20px;
+        background-color: red;
+        border-radius: 5px;
+        text-align: center;
+        margin-top: 30px;
+
+
+        visibility: visible;
+        padding: 10px 0px;
+        width: 20%;
+    }
+
+    .btn {
+
+        display: flex;
+        flex-direction: row;
+        background: #fff;
+
+
+    }
+
+    .btn a {
+        border: 1px solid gray;
+        padding: 10px 10px;
+        width: 100%;
+
+    }
+
+    .footer-menu ul li a {
+
+        font-size: 10px;
+
+    }
+
+}
